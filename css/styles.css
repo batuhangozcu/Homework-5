@@ -471,3 +471,11 @@ padding: 20px;
 input:focus {
   border-color:#4D5AE5;
 }
+.close {
+  width: 24px;
+  align-items: end;
+}
+
+.close:hover {
+  fill: #404BBF;
+}
