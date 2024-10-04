@@ -473,9 +473,13 @@ input:focus {
 }
 .close {
   width: 24px;
-  align-items: end;
+  display: flex;
+  align-self: end;
+  fill: #2e2f42;
 }
 
 .close:hover {
   fill: #404BBF;
+  --color1:#404bbf;
 }
+
