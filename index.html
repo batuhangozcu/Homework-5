@@ -78,26 +78,55 @@
       </div>
     </header>
     <main>
-<div class="form">
-<svg class="close" viewBox="0 0 32 32">
- <use href="images/icons.svg#icon-close"></use>
-</svg>
-<p class="form-text">Leave your contacts and we will call you back</p>
-<label for="name">Name</label>
-<input type="text" name="name" id="name">
-<label for="phone">Phone</label>
-<input type="phone" name="phone" id="phone">
-<label for="mail">Email</label>
-<input type="email" name="mail" id="mail">
-<label for="comment">Comment</label>
-<input type="text" name="comment" id="comment" placeholder="Text input">
-<label for="policy">I accept the terms and conditions of the <span>Privacy Policy</span></label>
-<input type="checkbox" name="policy" id="policy">
+      <div class="form">
+        <svg class="close" viewBox="0 0 32 32">
+          <use href="images/icons.svg#icon-close"></use>
+        </svg>
+        <p class="form-text">Leave your contacts and we will call you back</p>
+        <div class="form-contain">
+          <div class="form-index">
+            <label for="name">Name</label>
+            <svg class="form-icons" id="ico-person">
+              <use href="/images/icons.svg#icon-person"></use>
+            </svg>
+            <input type="text" name="name" id="name" />
+          </div>
 
+          <div class="form-index">
+            <label for="phone">Phone</label>
+            <svg class="form-icons" id="ico-phone">
+              <use href="/images/icons.svg#icon-phone"></use>
+            </svg>
+            <input type="phone" name="phone" id="phone" />
+          </div>
 
+          <div class="form-index">
+            <label for="mail">Email</label>
+            <svg class="form-icons" id="ico-mail">
+              <use href="/images/icons.svg#icon-mail"></use>
+            </svg>
+            <input type="email" name="mail" id="mail" />
+          </div>
 
-</div>
+          <div class="form-index">
+            <label for="comment">Comment</label>
+            <input
+              type="text"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            />
+          </div>
 
+          <div class="checkbox">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy"
+              >I accept the terms and conditions of the
+              <span class="privacy">Privacy Policy</span></label
+            >
+          </div>
+        </div>
+      </div>
 
       <section class="section-one">
         <div class="container">

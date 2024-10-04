@@ -448,7 +448,6 @@ body {
   box-shadow: 0px 2px 1px 0px #00000033;
   border-radius: 4px;
 padding: 20px;
-
 }
 
 .form-text {
@@ -461,23 +460,104 @@ padding: 20px;
   color: #2e2f42;
 }
 
-#name,#phone,#mail {
+#name,#phone,#mail,#comment {
   width: 360px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid #2E2F4266
+  border: 1px solid #2E2F4266;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
+
+
 input:focus {
-  border-color:#4D5AE5;
+  border: 1px solid #4d5ae5;
+  outline-color: #4d5ae5;
+
 }
 .close {
   width: 24px;
   display: flex;
   align-self: end;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 
 .close:hover {
   --color1:#404BBF;
   --color2:white
+}
+
+label {
+  color:#8E8F99;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.04em;
+}
+
+.privacy {
+  text-decoration: underline;
+  color: #4D5AE5;
+}
+
+input::placeholder {
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 4%;
+text-align: left;
+color: #2E2F4266;
+}
+
+.form-index {
+  display: grid;
+  align-self: center;
+}
+.checkbox {
+  align-self: center;
+}
+
+.form-contain {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.form-index:focus-within {
+  fill: #4D5AE5;
+}
+
+#name,#phone,#mail {
+  padding-left: 30px;
+}
+#comment {
+  width: 390px;
+  padding-bottom: 80px;
+  text-wrap: wrap;
+  
+}
+#ico-person {
+  width: 18px;
+  position: absolute;
+  padding: 3px 0px 3px 10px;
+  top: 26px;
+}
+#ico-phone {
+  width: 18px;
+  position: absolute;
+  padding: 3px 0px 3px 10px;
+  top: 92px;
+}
+
+#ico-mail {
+  width: 18px;
+  position: absolute;
+  padding: 3px 0px 3px 10px;
+  top: 157px;
 }
