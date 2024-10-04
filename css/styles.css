@@ -435,3 +435,39 @@ img {
 body {
   margin: 0;
 }
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  background-color: #FCFCFC;
+  width: 408px;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001F;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  border-radius: 4px;
+padding: 20px;
+
+}
+
+.form-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+
+#name,#phone,#mail {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #2E2F4266
+}
+
+input:focus {
+  border-color:#4D5AE5;
+}
