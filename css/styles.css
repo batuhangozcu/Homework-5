@@ -477,3 +477,7 @@ input:focus {
   align-self: end;
 }
 
+.close:hover {
+  --color1:#404BBF;
+  --color2:white
+}
