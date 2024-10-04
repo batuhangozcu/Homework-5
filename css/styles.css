@@ -475,11 +475,5 @@ input:focus {
   width: 24px;
   display: flex;
   align-self: end;
-  fill: #2e2f42;
-}
-
-.close:hover {
-  fill: #404BBF;
-  --color1:#404bbf;
 }
 
