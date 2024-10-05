@@ -514,6 +514,7 @@ label {
 .privacy {
   text-decoration: underline;
   color: #4d5ae5;
+  cursor: pointer;
 }
 
 input::placeholder {
