@@ -470,6 +470,7 @@ body {
   letter-spacing: 2%;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 10px;
 }
 
 #name,
@@ -536,6 +537,7 @@ input::placeholder {
 }
 .checkbox {
   align-self: center;
+  padding-right: 70px;
 }
 
 .form-contain {
@@ -563,14 +565,14 @@ input::placeholder {
   height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 89px;
+  top: 102px;
 }
 #ico-phone {
   width: 18px;
   height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 155px;
+  top: 177px;
 }
 
 #ico-mail {
@@ -578,7 +580,7 @@ input::placeholder {
   height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 220px;
+  top: 248px;
 }
 
 .send-button {
@@ -645,4 +647,8 @@ gap: 16px;
 .sub-button:hover {
   cursor: pointer;
   --color2: #404bbf;
+}
+
+label {
+  padding-bottom: 5px;
 }
