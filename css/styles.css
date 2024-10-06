@@ -558,22 +558,25 @@ input::placeholder {
 }
 #ico-person {
   width: 18px;
+  height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 26px;
+  top: 89px;
 }
 #ico-phone {
   width: 18px;
+  height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 92px;
+  top: 155px;
 }
 
 #ico-mail {
   width: 18px;
+  height: 24px;
   position: absolute;
   padding: 3px 0px 3px 10px;
-  top: 158px;
+  top: 220px;
 }
 
 .send-button {
