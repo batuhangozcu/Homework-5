@@ -636,6 +636,8 @@ gap: 16px;
 .sub-button {
   width: 165px;
   height: 40px;
+  padding-bottom: 2px;
+  padding-left: 8px;
 }
 
 .sub-button:hover {
